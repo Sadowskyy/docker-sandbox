@@ -1,3 +1,3 @@
 run:
-	docker build -t docker-playground .
+	docker-compose build
 	docker run -ti --rm docker-playground
